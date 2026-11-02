@@ -1,0 +1,10 @@
+/classifier
+*.exe
+*.o
+*.gch
+*.dSYM/
+*.stackdump
+*.out
+*.out.txt
+*.out.correct
+.DS_Store
