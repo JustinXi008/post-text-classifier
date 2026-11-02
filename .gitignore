@@ -6,5 +6,4 @@
 *.stackdump
 *.out
 *.out.txt
-*.out.correct
 .DS_Store
