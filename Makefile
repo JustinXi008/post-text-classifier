@@ -5,7 +5,7 @@ CXXFLAGS ?= -std=c++17 -Wall -Wextra -pedantic -O2
 
 all: classifier
 
-classifier: classifier.cpp csvstream.hpp
+classifier: classifier.cpp csv_reader.hpp
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) classifier.cpp $(LDFLAGS) $(LDLIBS) -o $@
 
 clean:
