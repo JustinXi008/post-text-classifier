@@ -65,11 +65,6 @@ Scores are unnormalized log scores, not calibrated probabilities. Training
 requires a nonempty labeled dataset. The model runs in memory and is retrained
 for each invocation.
 
-## Dependency
-
-CSV parsing uses `csvstream.hpp` by Andrew DeOrio. Its original author attribution
-and upstream URL are preserved in the header.
-
 ## Clean
 
 ```sh
